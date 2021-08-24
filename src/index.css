@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 30px;
+  margin: 0;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px 19px 25px 22px;
+}
+
+@media(min-width: 980px) {
+  .header{
+    padding: 77px 185px 87px 69px;
+    background-color: #E5E5E5;
+    
+  }
+}
+
+.header-form {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-logo {
+  min-height: 44px;
+  min-width: 66px;
+  background-color: #849FFF;
+}
+
+@media(min-width: 840px) {
+  .header-logo{
+    min-width: 156px;
+    min-height: 78px;
+  }
+}
+
+.form__input, .form__button {
+  min-height: 44px;
+}
+
+@media(min-width: 840px) {
+  .form__input, .form__button {
+    min-height: 73px;
+  }
+}
+
+.form__input {
+  min-width: 169px;
+}
+
+@media(min-width: 769px) {
+  .form__input {
+    width: 521px;
+  }
+}
+
+.form__button {
+  min-width: 77px;
+  background-color: #393939;
+  color: white;
+  border: none;
+}
+
+@media(min-width: 980px) {
+  .form__button {
+    width: 242px;
+  }
+}
+
+
+.inbox-body {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media(min-width: 769px) {
+  .inbox-body {
+    flex-direction: row;
+  }
+}
+
+.menu {
+  display: flex;
+  height: 61px;
+}
+
+@media(min-width: 769px) {
+  .menu {
+    width: 296px;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 30px;
+    background-color: #C4C4C4;
+  }
+}
+
+.menu__button {
+  height: 100%;
+  width: 50%;
+  background-color: #393939;
+  border: none;
+}
+
+@media(min-width: 769px) {
+  .menu__button {
+    height: 73px;
+    width: 242px;
+    margin-bottom: 27px;
+  }
+}
+
+.menu .link-interno {
+  color: white;
+}
+
+.content {
+  background-color: #FFF59B;
+  flex-grow: 1;
+  padding: 22px;
+}
+
+.content-title {
+  margin: 0;
+  margin-bottom: 14px;
+}
+
+.content-buttons{
+  width: 100%;
+  min-height: 73px;
+  background-color: #FFFDE8;
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 30px 13px 18px;
+  margin-bottom: 13px;
+  text-decoration: none;
+}
+
+.buttons__txt {
+  font-size: 24px;
+}
+
+
+.link-interno {
+  text-decoration: none;
+  color: inherit;
+}
+
